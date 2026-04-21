@@ -1,0 +1,25 @@
+Baseline PatchTSTSimple
+- Best Val Loss: 0.3012
+- MAE: 2.3176
+- RMSE: 2.8540
+- sMAPE: 32.29%
+
+Regime-Aware PatchTST
+- Best Val Loss: 0.2664
+- MAE: 2.2982
+- RMSE: 2.9173
+- sMAPE: 31.95%
+
+Uncertainty-Aware Regime Model
+- MAE: 2.3470
+- RMSE: 3.0172
+- sMAPE: 32.33%
+- 95% Coverage: 31.84%
+- Avg Interval Width: 2.2220
+
+Regime Discovery
+- Number of regimes: 3
+- Test silhouette score: 0.4473
+- Train silhouette score: 0.6144
+- Total detected shifts: 199 / 3054 windows
+- Shift rate: 6.52%
