@@ -181,7 +181,7 @@ def plot_regime_shifts(regime_labels, shift_indices, sample_idx=None):
     ax.plot(regime_labels, drawstyle="steps-mid", label="Regime")
 
     for idx in shift_indices:
-        ax.axvline(idx, color="red", alpha=0.08)
+        plt.axvline(idx, color="red", linewidth=1)
 
     if sample_idx is not None:
         ax.axvline(sample_idx, color="black", linestyle="--", alpha=0.9, label="Selected Window")

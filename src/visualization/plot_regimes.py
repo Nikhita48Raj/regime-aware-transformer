@@ -10,7 +10,7 @@ def main():
     plt.plot(regime_labels, drawstyle="steps-mid", label="Regime Label")
 
     for idx in shift_indices:
-        plt.axvline(idx, color="red", alpha=0.08)
+        plt.axvline(idx, color="red", linewidth=1)
 
     plt.title("Regime Timeline with Shift Detections")
     plt.xlabel("Window Index")
