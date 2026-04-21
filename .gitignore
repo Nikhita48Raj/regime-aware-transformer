@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-outputs/
+outputs/regimes
 checkpoints/
 
 .env
