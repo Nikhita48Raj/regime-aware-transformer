@@ -71,6 +71,16 @@ def main():
     plt.ylabel(f"Target Value ({target_col})")
     plt.legend()
     plt.grid(True)
+    import os
+
+    os.makedirs("outputs/plots", exist_ok=True)
+
+    plt.savefig(
+        "outputs/plots/prediction_vs_actual.png",
+        dpi=300,
+        bbox_inches="tight"
+    )
+
     plt.show()
 
 

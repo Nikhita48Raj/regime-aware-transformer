@@ -18,7 +18,22 @@ def main():
     plt.yticks(sorted(np.unique(regime_labels)))
     plt.grid(True)
     plt.legend()
+    import os
+
+    os.makedirs("outputs/plots", exist_ok=True)
+
+    plt.savefig(
+        "outputs/plots/regime_timeline.png",
+        dpi=300,
+        bbox_inches="tight"
+    )
     plt.show()
+
+    plt.savefig(
+    "outputs/plots/regime_shifts.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 
 
 if __name__ == "__main__":
