@@ -26,7 +26,7 @@ def main():
     os.makedirs("outputs/plots", exist_ok=True)
 
     plt.savefig(
-        "outputs/plots/regime_shifts.png",
+        "outputs/plots/regime_shifts_v2.png",
         dpi=300,
         bbox_inches="tight"
     )
